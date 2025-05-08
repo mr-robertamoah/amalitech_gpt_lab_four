@@ -1,19 +1,20 @@
 #!/bin/bash
 
 # Initialize variable for file containing user details
-file=$1
+FILE=$1
 PASSWORD="ChangeMe123"
 LOG_FILE="iam_setup.log"
+FROM="Robert Amoah <robertamoah.dev@gmail.com>"
 
 
 # Set the file to use users.txt if not provided
-if [ -z "$file" ]; then
-  file="users.txt"
+if [ -z "$FILE" ]; then
+  FILE="users.txt"
 fi
 
 # Check if the file exists
-if [ ! -f "$file" ]; then
-  echo `date "+%Y-%m-%d %H:%M:%S"` ": File $file not found!" >> $LOG_FILE
+if [ ! -f "$FILE" ]; then
+  echo `date "+%Y-%m-%d %H:%M:%S"` ": File $FILE not found!" >> $LOG_FILE
   exit 1
 fi
 
@@ -80,7 +81,7 @@ do
             You will be required to change your password on your first login.
 
             Thanks,
-            Admin Team" | mail -a "From: Robert Amoah <robertamoah.dev@gmail.com>" -s "Your New Linux Account" "$email"
+            Admin Team" | mail -a "From: $FROM" -s "Your New Linux Account" "$email"
             echo `date "+%Y-%m-%d %H:%M:%S"` ": Email sent to $email." >> $LOG_FILE
         fi
     else
@@ -89,4 +90,4 @@ do
     fi
 
     echo -e "\n\n" >> $LOG_FILE
-done < <(tail -n +2 "$file")
+done < <(tail -n +2 "$FILE")

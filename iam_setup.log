@@ -1,0 +1,26 @@
+2025-05-08 07:41:30 : Group engineering created.
+2025-05-08 07:41:30 : User jdoe created and added to group engineering.
+2025-05-08 07:41:30 : Password for user jdoe set to ChangeMe123.
+2025-05-08 07:41:30 : User jdoe must change password on first login.
+2025-05-08 07:41:30 : Password expiration of user jdoe has been to 90 days, 7 days warning, and 14 days notice.
+2025-05-08 07:41:30 : Permissions for /home/jdoe set to 700.
+2025-05-08 07:41:31 : Email sent to robert.luv.u2000@gmail.com.
+
+
+
+2025-05-08 07:41:31 : User asmith created and added to group engineering.
+2025-05-08 07:41:31 : Password for user asmith set to ChangeMe123.
+2025-05-08 07:41:31 : User asmith must change password on first login.
+2025-05-08 07:41:31 : Password expiration of user asmith has been to 90 days, 7 days warning, and 14 days notice.
+2025-05-08 07:41:31 : Permissions for /home/asmith set to 700.
+2025-05-08 07:41:31 : Email sent to robert.luv.u2000@gmail.com.
+
+
+
+2025-05-08 07:41:31 : Group design created.
+2025-05-08 07:41:31 : User mjones created and added to group design.
+2025-05-08 07:41:31 : Password for user mjones set to ChangeMe123.
+2025-05-08 07:41:31 : User mjones must change password on first login.
+2025-05-08 07:41:31 : Password expiration of user mjones has been to 90 days, 7 days warning, and 14 days notice.
+2025-05-08 07:41:31 : Permissions for /home/mjones set to 700.
+2025-05-08 07:41:31 : Email sent to robert.luv.u2000@gmail.com.
