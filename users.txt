@@ -1,4 +1,4 @@
-username,fullname,group
+username,fullname,group,email
 jdoe,John Doe,engineering
 asmith,Alice Smith,engineering
 mjones,Mike Jones,design
