@@ -39,7 +39,9 @@ YYYY-MM-DD HH:MM:SS : Description of the event
 Example entries:
 
 ```
-<timestamp> : <message>.
+2025-05-08 07:41:30 : Group engineering created.
+2025-05-08 07:41:30 : User jdoe created and added to group engineering.
+2025-05-08 07:41:30 : Password for user jdoe set to ChangeMe123.
 ```
 
 ## Screenshots Directory
